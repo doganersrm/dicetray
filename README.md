@@ -8,12 +8,14 @@
 
 ## Özellikler
 
+
 <img width="252" height="157" alt="4" src="https://github.com/user-attachments/assets/d18c3e3d-9378-4856-8544-cea177950cd5" />
 
 **Hızlı Parola Üretimi**  
   - Politika-gerçekleme: Büyük/Küçük/Rakam/Özel → her sınıftan en az bir karakter garanti  
   - Uzunluk ve karakter sınıfları ayarlanabilir  
   - Kopyala + pano otomatik temizleme süresi
+
 
 <img width="611" height="496" alt="2" src="https://github.com/user-attachments/assets/38c8899c-96b2-4ed4-9d0c-2652c3780661" />
 
@@ -23,13 +25,15 @@
   - Master parola koruması  
   - Şifreli dışa aktar / içe aktar (AES-GCM yedek dosyası)
 
+
 <img width="535" height="333" alt="1" src="https://github.com/user-attachments/assets/f3900f97-00f2-4901-9060-f7ea4b383778" />
 
 **Parola Güç Göstergesi**  
   - Entropi tabanlı seviye  
   - Tahmini kırılma süresi (human-readable)  
   - Öneriler (uzunluk, çeşitlilik, tekrar, yaygın kelimeler vb.)
-  - 
+
+
 <img width="658" height="197" alt="7" src="https://github.com/user-attachments/assets/60e1c302-ced6-40cd-80fe-c025df819d3f" />
 
 **Hızlı Arama & Yönetim**  
@@ -61,21 +65,7 @@ python dicetray.py
 
 
 
-MIT License
-
-Copyright (c) 2024 Doğaner Serim
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell      
-copies of the Software, and to permit persons to whom the Software is furnished 
-to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all      
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR     
+Copyright (c) 2025 Doğaner Serim
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,       
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE      
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER         
