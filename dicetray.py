@@ -1,22 +1,3 @@
-#!/usr/bin/env python3
-"""
-DiceTray – sistem tepsisi (tray) parola üretici & şifre kasası (Türkçe)
-
-Öne çıkanlar
-- Politika-gerçekleme üretici: Seçili sınıfların her birinden en az bir karakter garanti.
-- Bas-tut göz (👁️), güç göstergesi (entropi + tahmini kırılma süresi).
-- Hızlı Arama paleti (Ctrl+Shift+F), aksiyon logu, global sıcak tuş (opsiyonel).
-- İnaktivite kilidi, etiket/favori, AES-GCM şifreli yedek (içe/dışa aktar).
-
-Yeni (bu sürüm)
-- **Soft-delete**: Sil → çöpe taşır (`deleted_at`). “Çöpü göster” filtresi.
-- **Geri getir**: Çöpteki kaydı eski haline döndür.
-- **Kalıcı sil**: Yalnızca çöpteyken. (Geri alınamaz)
-- **Kaydet**: Aynı başlık çöpteyse otomatik geri getirir (deleted_at=NULL).
-- **Yedek**: `deleted_at` alanı da yedeklenir/geri yüklenir.
-- **Derin birleştirme** (config), Ayarlar kalıcı ve anında etkili.
-- Ara/Ayar açıkken auto-hide/lock zamanlayıcıları durur (pencere kendi kendine kapanmaz).
-"""
 from __future__ import annotations
 
 import base64
@@ -38,7 +19,7 @@ import string
 
 # Global sıcak tuş için opsiyonel bağımlılık
 try:
-    import keyboard  # type: ignore
+    import keyboard
 except Exception:
     keyboard = None
 
@@ -1145,3 +1126,4 @@ def main():
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
