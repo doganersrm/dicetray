@@ -1,6 +1,8 @@
-🎲 DiceTray – Sistem Tepsisi Parola Üretici & Şifre Kasası
+##🎲 DiceTray – Sistem Tepsisi Parola Üretici & Şifre Kasası
 
 > Hafif, güvenli ve hızlı bir masaüstü parola yöneticisi. PySide6 ile geliştirilmiş; sistem tepsisinde çalışır, bir tıkla güçlü parola üretir ve güvenle saklar.
+
+
 
 <img width="535" height="333" alt="1" src="https://github.com/user-attachments/assets/245af5aa-eb2b-4341-ac40-ae0fcd0090a8" />
 
